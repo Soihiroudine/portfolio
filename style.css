@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    background-color: #eee;
+
+}
+
+h1, span{
+    background-color: #1A3232;
+    font-family: 'Courier New', Courier, monospace;
+    color : #EEE;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+span{
+    font-size: 34px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+span:hover{
+    background-color: #1a323290;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    padding: 51px;
+}
